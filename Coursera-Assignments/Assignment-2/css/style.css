@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+}
+
+@media (min-width: 992px) {
+    .col-lg-4, .col-lg-12 {
+        float:left; 
+    }
+    .col-lg-4 {
+        width: 33.33%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+        float: left;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }    
+}
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        width: 100%;
+        border-radius: 5px;
+    }
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.25 em;
+    margin: 15px 0 15px 0;
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+}
+
+.ArticleContainer {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    border: 1px solid #000;
+    background: #999999;
+}
+
+.ArticleTitle {
+    float: right;
+    width: 200px;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    border-radius: 0 0 0 15px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-right: none;
+    border-top: none;
+    font-size: 1em;
+}
+
+.ArticleTitleColor1 {
+    background: #e6b55c;
+}
+
+.ArticleTitleColor2 {
+    background: #4cdfba;
+}
+
+.ArticleTitleColor3 {
+    background: #e65cbd;
+}
+
+.ArticleBody {
+    clear: both;
+    text-align: justify;
+    padding: 10px 15px 15px 15px;
+    font-size: 0.75em;
+}
+
